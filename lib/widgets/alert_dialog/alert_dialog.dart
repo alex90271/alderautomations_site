@@ -46,7 +46,7 @@ class ShowInvalidAlert extends StatelessWidget {
   const ShowInvalidAlert(
       {Key? key,
       this.invalidBody = "This is a failed dialog box",
-      this.invalidHeader = "Errir"})
+      this.invalidHeader = "Error"})
       : super(key: key);
 
   @override
